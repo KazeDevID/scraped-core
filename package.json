@@ -1,0 +1,35 @@
+{
+  "name": "scraped-core",
+  "description": "Serves to scrape the core of the website.",
+  "keywords": [
+    "scraped",
+    "core"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KazeDevID <kazedevid@gmail.com> (https://github.com/KazeDevID)",
+  "homepage": "https://github.com/KazeDevID/scraped-core#readme",
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KazeDevID/scraped-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KazeDevID/scraped-core/issues"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "err": "^2.1.12",
+    "is-empty-obj": "^1.0.12",
+    "iterate-object": "^1.3.4",
+    "obj-def": "^1.0.9",
+    "typpy": "^2.3.13"
+  }
+}
